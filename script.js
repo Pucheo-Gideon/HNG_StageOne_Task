@@ -38,7 +38,7 @@ function getTime(){
 }
 
 function displayDate(dayValue, fullDate){
-    currentDayOfTheWeek.textContent = `Current Date: ${dayValue}, ${fullDate}`
+    currentDayOfTheWeek.textContent = `Current Day: ${dayValue}, ${fullDate}`
 }
 
 getTime()
