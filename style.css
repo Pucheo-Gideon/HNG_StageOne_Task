@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+[data-testid="container"]{
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+[data-testid="slackDisplayImage"]{
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    user-select: none;
+}
+
+span{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+[data-testid="currentDayOfTheWeek"]{
+    /* margin-top: 10px; */
+}
+
+[data-testid="githubURL"]{
+    margin-bottom: 10px;
+    color: #08073f;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
